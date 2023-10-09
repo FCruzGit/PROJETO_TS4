@@ -10,8 +10,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const template_1 = require("./template");
-const destinationDirectory = 'C:/Users/felip/OneDrive/Documentos/Electronic Arts/The Sims 4/Tray';
-const allowedExtensions = ['.hhi', '.sgi', '.trayitem', '.householdbinary'];
 function moveFilesRecursively(directoryPath) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
@@ -19,15 +17,15 @@ function moveFilesRecursively(directoryPath) {
             for (const file of files) {
                 const filePath = template_1.path.join(directoryPath, file);
                 const fileStat = yield template_1.fs.stat(filePath);
+                // Verifica as pastas
                 if (fileStat.isDirectory()) {
-                    // Se for uma pasta, chame a função recursivamente
                     yield moveFilesRecursively(filePath);
                 }
                 else {
                     // Se for um arquivo, verifique a extensão e mova, se corresponder
                     const fileExtension = template_1.path.extname(file);
-                    if (allowedExtensions.includes(fileExtension)) {
-                        const destinationPath = template_1.path.join(destinationDirectory, file);
+                    if (template_1.allowedExtensions.includes(fileExtension)) {
+                        const destinationPath = template_1.path.join(template_1.destinationDirectory, file);
                         yield template_1.fs.move(filePath, destinationPath, { overwrite: true });
                         console.log(`Arquivo ${file} movido para ${destinationPath}`);
                     }

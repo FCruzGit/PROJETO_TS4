@@ -1,7 +1,4 @@
-import {path, fs, sourceDirectory} from "./template";
-
-const destinationDirectory = 'C:/Users/felip/OneDrive/Documentos/Electronic Arts/The Sims 4/Tray';
-const allowedExtensions = ['.hhi', '.sgi', '.trayitem', '.householdbinary'];
+import {path, fs, sourceDirectory, destinationDirectory, allowedExtensions} from "./template";
 
 async function moveFilesRecursively(directoryPath: string) {
   try {
@@ -11,8 +8,8 @@ async function moveFilesRecursively(directoryPath: string) {
       const filePath = path.join(directoryPath, file);
       const fileStat = await fs.stat(filePath);
 
+      // Verifica as pastas
       if (fileStat.isDirectory()) {
-        // Se for uma pasta, chame a função recursivamente
         await moveFilesRecursively(filePath);
       } else {
         // Se for um arquivo, verifique a extensão e mova, se corresponder

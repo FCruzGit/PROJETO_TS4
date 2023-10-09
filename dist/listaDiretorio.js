@@ -10,8 +10,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const template_1 = require("./template");
-const simsDirectory = 'C:\\Users\\felip\\OneDrive\\Documentos\\Electronic Arts\\The Sims 4\\Mods\\.SIMS\\PACK.SIMS4IMAGINATION'; // Substitua pelo caminho da pasta .SIMS
-const outputPath = 'C:\\Users\\felip\\WebstormProjects\\projetots4\\jsonDiretorios\\rootDirProd.json'; // Substitua pelo caminho do arquivo JSON de saída
 function getRootDirectories(simsDirectory) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
@@ -28,13 +26,13 @@ function getRootDirectories(simsDirectory) {
     });
 }
 (() => __awaiter(void 0, void 0, void 0, function* () {
-    const rootDirectories = yield getRootDirectories(simsDirectory);
+    const rootDirectories = yield getRootDirectories(template_1.simsDirectory);
     console.log('Pastas raiz encontradas:');
     console.log(rootDirectories);
     // Salvar a lista de pastas raiz em um arquivo JSON
     try {
-        yield template_1.fs.outputJson(outputPath, rootDirectories, { spaces: 2 });
-        console.log(`Lista de pastas raiz salva em ${outputPath}`);
+        yield template_1.fs.outputJson(template_1.outputPath, rootDirectories, { spaces: 2 });
+        console.log(`Lista de pastas raiz salva em ${template_1.outputPath}`);
     }
     catch (error) {
         console.error('Ocorreu um erro ao salvar o arquivo JSON:', error);

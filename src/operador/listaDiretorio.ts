@@ -1,7 +1,4 @@
-import {path, fs, sourceDirectory} from "./template";
-
-const simsDirectory = 'C:\\Users\\felip\\OneDrive\\Documentos\\Electronic Arts\\The Sims 4\\Mods\\.SIMS\\PACK.SIMS4IMAGINATION'; // Substitua pelo caminho da pasta .SIMS
-const outputPath = 'C:\\Users\\felip\\WebstormProjects\\projetots4\\jsonDiretorios\\rootDirProd.json'; // Substitua pelo caminho do arquivo JSON de saída
+import { path, fs, outputPath, simsDirectory } from "./template";
 
 async function getRootDirectories(simsDirectory: string) {
     try {
