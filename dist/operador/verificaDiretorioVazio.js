@@ -10,22 +10,24 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const template_1 = require("./template");
+const path = require('path');
+const fs = require('fs-extra');
 function verificaDiretorio(diretorio) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            const arquivos = yield template_1.fs.promises.readdir(diretorio);
+            const arquivos = yield fs.promises.readdir(diretorio);
             for (const arquivo of arquivos) {
-                const caminhoCompleto = template_1.path.join(diretorio, arquivo);
-                const stats = yield template_1.fs.promises.stat(caminhoCompleto);
+                const caminhoCompleto = path.join(diretorio, arquivo);
+                const stats = yield fs.promises.stat(caminhoCompleto);
                 if (stats.isDirectory()) {
-                    const conteudoDiretorio = yield template_1.fs.promises.readdir(caminhoCompleto);
+                    const conteudoDiretorio = yield fs.promises.readdir(caminhoCompleto);
                     if (conteudoDiretorio.length === 0) {
                         console.log(`A pasta ${caminhoCompleto} está vazia e será excluída.`);
-                        yield template_1.fs.promises.rmdir(caminhoCompleto);
+                        yield fs.promises.rmdir(caminhoCompleto);
                     }
                     else if (conteudoDiretorio.length === 1 && /^readme$/i.test(conteudoDiretorio[0])) {
                         console.log(`A pasta ${caminhoCompleto} está vazia (apenas contém um arquivo README) e será excluída.`);
-                        yield template_1.fs.promises.rmdir(caminhoCompleto);
+                        yield fs.promises.rmdir(caminhoCompleto);
                     }
                 }
             }

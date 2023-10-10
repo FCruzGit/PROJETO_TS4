@@ -9,29 +9,31 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const template_1 = require("./template");
+const template_1 = require("../operador/template");
+const path = require('path');
+const fs = require('fs-extra');
 function moveFilesFromSubfoldersToRoot(directoryPath) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            const files = yield template_1.fs.readdir(directoryPath);
+            const files = yield fs.readdir(directoryPath);
             for (const file of files) {
-                const filePath = template_1.path.join(directoryPath, file);
-                const fileStat = yield template_1.fs.stat(filePath);
+                const filePath = path.join(directoryPath, file);
+                const fileStat = yield fs.stat(filePath);
                 if (fileStat.isDirectory()) {
                     // Se for uma pasta, chame a função recursivamente
                     yield moveFilesFromSubfoldersToRoot(filePath);
                     // Após mover os arquivos, verifique se a pasta está vazia
-                    const folderContents = yield template_1.fs.readdir(filePath);
+                    const folderContents = yield fs.readdir(filePath);
                     if (folderContents.length === 0) {
-                        yield template_1.fs.rmdir(filePath);
+                        yield fs.rmdir(filePath);
                         console.log(`Pasta vazia ${filePath} excluída.`);
                     }
                 }
                 else {
                     // Se for um arquivo, mova-o para a pasta raiz
-                    const fileName = template_1.path.basename(filePath);
-                    const destinationPath = template_1.path.join(template_1.sourceDirectory, fileName);
-                    yield template_1.fs.move(filePath, destinationPath, { overwrite: true });
+                    const fileName = path.basename(filePath);
+                    const destinationPath = path.join(template_1.sourceDirectory, fileName);
+                    yield fs.move(filePath, destinationPath, { overwrite: true });
                     console.log(`Arquivo ${fileName} movido para ${destinationPath}`);
                 }
             }

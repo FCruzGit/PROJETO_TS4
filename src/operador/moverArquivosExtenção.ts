@@ -1,4 +1,8 @@
-import {path, fs, sourceDirectory, destinationDirectory, allowedExtensions} from "./template";
+import {sourceDirectory, destinationDirectory, allowedExtensions} from "../operador/template";
+
+const path = require('path');
+
+const fs = require('fs-extra');
 
 async function moveFilesRecursively(directoryPath: string) {
   try {

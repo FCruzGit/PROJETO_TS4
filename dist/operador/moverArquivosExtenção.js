@@ -9,24 +9,26 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const template_1 = require("./template");
+const template_1 = require("../operador/template");
+const path = require('path');
+const fs = require('fs-extra');
 function moveFilesRecursively(directoryPath) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            const files = yield template_1.fs.readdir(directoryPath);
+            const files = yield fs.readdir(directoryPath);
             for (const file of files) {
-                const filePath = template_1.path.join(directoryPath, file);
-                const fileStat = yield template_1.fs.stat(filePath);
+                const filePath = path.join(directoryPath, file);
+                const fileStat = yield fs.stat(filePath);
                 // Verifica as pastas
                 if (fileStat.isDirectory()) {
                     yield moveFilesRecursively(filePath);
                 }
                 else {
                     // Se for um arquivo, verifique a extensão e mova, se corresponder
-                    const fileExtension = template_1.path.extname(file);
+                    const fileExtension = path.extname(file);
                     if (template_1.allowedExtensions.includes(fileExtension)) {
-                        const destinationPath = template_1.path.join(template_1.destinationDirectory, file);
-                        yield template_1.fs.move(filePath, destinationPath, { overwrite: true });
+                        const destinationPath = path.join(template_1.destinationDirectory, file);
+                        yield fs.move(filePath, destinationPath, { overwrite: true });
                         console.log(`Arquivo ${file} movido para ${destinationPath}`);
                     }
                 }

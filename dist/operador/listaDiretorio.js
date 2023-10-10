@@ -10,13 +10,15 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const template_1 = require("./template");
+const path = require('path');
+const fs = require('fs-extra');
 function getRootDirectories(simsDirectory) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            const subdirectories = yield template_1.fs.readdir(simsDirectory);
+            const subdirectories = yield fs.readdir(simsDirectory);
             const rootDirectories = subdirectories
-                .filter((subdir) => template_1.fs.statSync(template_1.path.join(simsDirectory, subdir)).isDirectory())
-                .map((subdir) => template_1.path.join(simsDirectory, subdir));
+                .filter((subdir) => fs.statSync(path.join(simsDirectory, subdir)).isDirectory())
+                .map((subdir) => path.join(simsDirectory, subdir));
             return rootDirectories;
         }
         catch (error) {
@@ -31,7 +33,7 @@ function getRootDirectories(simsDirectory) {
     console.log(rootDirectories);
     // Salvar a lista de pastas raiz em um arquivo JSON
     try {
-        yield template_1.fs.outputJson(template_1.outputPath, rootDirectories, { spaces: 2 });
+        yield fs.outputJson(template_1.outputPath, rootDirectories, { spaces: 2 });
         console.log(`Lista de pastas raiz salva em ${template_1.outputPath}`);
     }
     catch (error) {

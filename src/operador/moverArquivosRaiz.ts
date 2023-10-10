@@ -1,4 +1,8 @@
-import {path, fs, sourceDirectory} from "./template";
+import {sourceDirectory} from "../operador/template";
+
+const path = require('path');
+
+const fs = require('fs-extra');
 
 async function moveFilesFromSubfoldersToRoot(directoryPath: string) {
     try {

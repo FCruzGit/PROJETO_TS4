@@ -1,4 +1,8 @@
-import {path, fs, sourceDirectory} from "./template";
+import { sourceDirectory} from "./template";
+
+const path = require('path');
+
+const fs = require('fs-extra');
 
 async function verificaDiretorio(diretorio: string) {
     try {

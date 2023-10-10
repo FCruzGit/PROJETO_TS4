@@ -5,26 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f2dd10a-4cee-46d2-88c6-a97dc0f81edb" name="Changes" comment="Comit Inicial">
-      <change afterPath="$PROJECT_DIR$/dist/verificaDiretorioVazio.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operador/template.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operador/verificaDiretorioVazio.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/conversor/JPGtoPDF.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conversor/JFIFtoPDF.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conversor/JPEGtoPDF.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conversor/JPGtoPDF.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conversor/PNGtoPDF.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conversor/validarArquivo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operador/criarNomeUnico.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/listaDiretorio.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/listaDiretorio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/moverArquivosExtenção.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/moverArquivosExtenção.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonDiretorios/rootDir.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/json/rootDir.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonDiretorios/rootDirProd.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/json/rootDirProd.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/listaDiretorio.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/listaDiretorio.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/operador/listaDiretorio.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/moverArquivosExtenção.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/moverArquivosExtenção.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/operador/moverArquivosExtenção.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/moverArquivosRaiz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/moverArquivosRaiz.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/operador/moverArquivosRaiz.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/listaDiretorio.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/operador/listaDiretorio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/moverArquivosExtenção.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/operador/moverArquivosExtenção.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/moverArquivosRaiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/operador/moverArquivosRaiz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/operador/template.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/verificaDiretorioVazio.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/operador/verificaDiretorioVazio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asset/json/rootDir.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asset/json/rootDirProd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/operador/listaDiretorio.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/operador/listaDiretorio.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/operador/moverArquivosExtenção.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/operador/moverArquivosExtenção.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/operador/moverArquivosRaiz.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/operador/moverArquivosRaiz.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/operador/template.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/operador/template.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/operador/verificaDiretorioVazio.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/operador/verificaDiretorioVazio.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,26 +54,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/felip/WebstormProjects/projetots4/dist/verificaDiretorioVazio.js&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/felip/AppData/Roaming/JetBrains/WebStorm2023.2/node/node-v18.15.0-win-x64/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;C:\\Users\\felip\\AppData\\Roaming\\JetBrains\\WebStorm2023.2\\node\\node-v18.15.0-win-x64\\npm.cmd&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\felip\\WebstormProjects\\projetots4\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/felip/OneDrive/Imagens",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "C:/Users/felip/AppData/Roaming/JetBrains/WebStorm2023.2/node/node-v18.15.0-win-x64/node",
+    "nodejs_package_manager_path": "C:\\Users\\felip\\AppData\\Roaming\\JetBrains\\WebStorm2023.2\\node\\node-v18.15.0-win-x64\\npm.cmd",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "ts.external.directory.path": "C:\\Users\\felip\\WebstormProjects\\projetots4\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\felip\WebstormProjects\projetots4\src\asset" />
       <recent name="C:\Users\felip\WebstormProjects\projetots4\node_modules" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -82,23 +85,28 @@
       <recent name="C:\Users\felip\WebstormProjects\projetots4" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.Verificar Diretorios">
-    <configuration name="Listar diretórios" type="NodeJSConfigurationType" path-to-node="node" path-to-js-file="dist/listaDiretorio.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Node.js.Validar Arquivo (Conversão)">
+    <configuration name="Listar diretórios" type="NodeJSConfigurationType" path-to-node="node" path-to-js-file="dist/operador/listaDiretorio.js" working-dir="$PROJECT_DIR$">
       <method v="2">
         <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/tsconfig.json" />
       </method>
     </configuration>
-    <configuration name="Verificar Diretorios" type="NodeJSConfigurationType" path-to-node="node" path-to-js-file="dist/verificaDiretorioVazio.js" working-dir="$PROJECT_DIR$">
+    <configuration name="Validar Arquivo (Conversão)" type="NodeJSConfigurationType" path-to-node="node" path-to-js-file="dist/conversor/validarArquivo.js" working-dir="$PROJECT_DIR$">
       <method v="2">
         <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/tsconfig.json" />
       </method>
     </configuration>
-    <configuration name="mover Arquivos para Raiz" type="NodeJSConfigurationType" path-to-node="node" path-to-js-file="dist/moverArquivosRaiz.js" working-dir="$PROJECT_DIR$">
+    <configuration name="Verificar Diretorios" type="NodeJSConfigurationType" path-to-node="node" path-to-js-file="dist/operador/verificaDiretorioVazio.js" working-dir="$PROJECT_DIR$">
       <method v="2">
         <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/tsconfig.json" />
       </method>
     </configuration>
-    <configuration name="mover por Extenção" type="NodeJSConfigurationType" path-to-node="node" path-to-js-file="dist/moverArquivosExtenção.js" working-dir="$PROJECT_DIR$">
+    <configuration name="mover Arquivos para Raiz" type="NodeJSConfigurationType" path-to-node="node" path-to-js-file="dist/operador/moverArquivosRaiz.js" working-dir="$PROJECT_DIR$">
+      <method v="2">
+        <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/tsconfig.json" />
+      </method>
+    </configuration>
+    <configuration name="mover por Extenção" type="NodeJSConfigurationType" path-to-node="node" path-to-js-file="dist/operador/moverArquivosExtenção.js" working-dir="$PROJECT_DIR$">
       <method v="2">
         <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/tsconfig.json" />
       </method>
@@ -106,6 +114,7 @@
     <list>
       <item itemvalue="Node.js.mover por Extenção" />
       <item itemvalue="Node.js.Verificar Diretorios" />
+      <item itemvalue="Node.js.Validar Arquivo (Conversão)" />
       <item itemvalue="Node.js.mover Arquivos para Raiz" />
       <item itemvalue="Node.js.Listar diretórios" />
     </list>
@@ -123,7 +132,7 @@
       <workItem from="1696669958245" duration="788000" />
       <workItem from="1696692573723" duration="1783000" />
       <workItem from="1696780717122" duration="4436000" />
-      <workItem from="1696871992687" duration="3342000" />
+      <workItem from="1696871992687" duration="17722000" />
     </task>
     <task id="LOCAL-00001" summary="Comit Inicial">
       <option name="closed" value="true" />
@@ -133,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696781769715</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Comit Inicial">
+      <option name="closed" value="true" />
+      <created>1696890871324</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696890871324</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

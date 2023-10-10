@@ -1,7 +1,3 @@
-//Importações do Node modules
-export const path = require('path');
-export const fs = require('fs-extra');
-
 // Endereço para realizar a Query | MOVER POR EXTENÇÃO | MOVER PARA RAIZ | VERIFICAR DIRETÓRIO VAZIO
 export const sourceDirectory = "C:\\Users\\felip\\OneDrive\\Documentos\\Electronic Arts\\The Sims 4\\Mods\\.HOUSE"
 
@@ -14,4 +10,13 @@ export const simsDirectory = "C:\\Users\\felip\\OneDrive\\Documentos\\Electronic
 
 // Endereço para salvar o arquivo Json da listagem | LISTA DIRETORIO
 export const outputPath = "C:\\Users\\felip\\WebstormProjects\\projetots4\\src\\asset\\json\\listagem01"
+
+// Endereços para Conversão | DIRETÓRIO, ARQUIVO e SAÍDA | VALIDAR ARQUIVO
+export const diretorioImagem = 'C:\\Users\\felip\\OneDrive\\Imagens\\Memes';
+
+const nomeImagem = 'Fqi6YqHXoAA6w9X';
+const extensao = '.JFIF';
+export const imagemAConverter = nomeImagem + extensao;
+
+export const diretorioSaida = 'C:/Users/felip/WebstormProjects/projetots4/src/asset/convertido';
 

@@ -1,4 +1,8 @@
-import { path, fs, outputPath, simsDirectory } from "./template";
+import { outputPath, simsDirectory } from "./template";
+
+const path = require('path');
+
+const fs = require('fs-extra');
 
 async function getRootDirectories(simsDirectory: string) {
     try {
