@@ -4,28 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f2dd10a-4cee-46d2-88c6-a97dc0f81edb" name="Changes" comment="Comit Inicial">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/conversor/JPGtoPDF.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conversor/JFIFtoPDF.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conversor/JPEGtoPDF.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conversor/JPGtoPDF.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conversor/PNGtoPDF.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conversor/validarArquivo.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operador/criarNomeUnico.ts" afterDir="false" />
+    <list default="true" id="5f2dd10a-4cee-46d2-88c6-a97dc0f81edb" name="Changes" comment="Adicionar README.md">
+      <change afterPath="$PROJECT_DIR$/src/operador/deletarDuplicados.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/listaDiretorio.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/operador/listaDiretorio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/moverArquivosExtenção.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/operador/moverArquivosExtenção.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/moverArquivosRaiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/operador/moverArquivosRaiz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/operador/template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/verificaDiretorioVazio.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/operador/verificaDiretorioVazio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/json/rootDir.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/json/rootDirProd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/operador/listaDiretorio.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/operador/listaDiretorio.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/operador/moverArquivosExtenção.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/operador/moverArquivosExtenção.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/operador/moverArquivosRaiz.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/operador/moverArquivosRaiz.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/conversor/validarArquivo.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/conversor/validarArquivo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/operador/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/operador/template.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/operador/template.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/operador/template.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/operador/verificaDiretorioVazio.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/operador/verificaDiretorioVazio.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/felip/OneDrive/Imagens",
+    "last_opened_file_path": "C:/Users/felip/WebstormProjects/projetots4/dist/operador/deletarDuplicados.js",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,7 +70,12 @@
       <recent name="C:\Users\felip\WebstormProjects\projetots4" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.Validar Arquivo (Conversão)">
+  <component name="RunManager" selected="Node.js.DELETAR DUPLICADOS">
+    <configuration name="DELETAR DUPLICADOS" type="NodeJSConfigurationType" path-to-node="node" path-to-js-file="dist/operador/deletarDuplicados.js" working-dir="$PROJECT_DIR$">
+      <method v="2">
+        <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/tsconfig.json" />
+      </method>
+    </configuration>
     <configuration name="Listar diretórios" type="NodeJSConfigurationType" path-to-node="node" path-to-js-file="dist/operador/listaDiretorio.js" working-dir="$PROJECT_DIR$">
       <method v="2">
         <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/tsconfig.json" />
@@ -115,6 +105,7 @@
       <item itemvalue="Node.js.mover por Extenção" />
       <item itemvalue="Node.js.Verificar Diretorios" />
       <item itemvalue="Node.js.Validar Arquivo (Conversão)" />
+      <item itemvalue="Node.js.DELETAR DUPLICADOS" />
       <item itemvalue="Node.js.mover Arquivos para Raiz" />
       <item itemvalue="Node.js.Listar diretórios" />
     </list>
@@ -132,7 +123,8 @@
       <workItem from="1696669958245" duration="788000" />
       <workItem from="1696692573723" duration="1783000" />
       <workItem from="1696780717122" duration="4436000" />
-      <workItem from="1696871992687" duration="17722000" />
+      <workItem from="1696871992687" duration="18837000" />
+      <workItem from="1696910218855" duration="2028000" />
     </task>
     <task id="LOCAL-00001" summary="Comit Inicial">
       <option name="closed" value="true" />
@@ -150,7 +142,31 @@
       <option name="project" value="LOCAL" />
       <updated>1696890871324</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Conversores de imagem para PDF completo.">
+      <option name="closed" value="true" />
+      <created>1696908014680</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696908014680</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Conversores de imagem para PDF completo. v2">
+      <option name="closed" value="true" />
+      <created>1696908036454</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696908036454</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adicionar README.md">
+      <option name="closed" value="true" />
+      <created>1696908326967</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696908326967</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +174,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Comit Inicial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comit Inicial" />
+    <MESSAGE value="Conversores de imagem para PDF completo." />
+    <MESSAGE value="Conversores de imagem para PDF completo. v2" />
+    <MESSAGE value="Adicionar README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionar README.md" />
   </component>
 </project>

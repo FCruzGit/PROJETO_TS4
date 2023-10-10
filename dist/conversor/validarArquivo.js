@@ -3,12 +3,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const path_1 = __importDefault(require("path"));
+const template_1 = require("../operador/template");
 const JPGtoPDF_1 = require("./JPGtoPDF");
 const JFIFtoPDF_1 = require("./JFIFtoPDF");
 const PNGtoPDF_1 = require("./PNGtoPDF");
 const JPEGtoPDF_1 = require("./JPEGtoPDF");
-const template_1 = require("../operador/template");
+const path_1 = __importDefault(require("path"));
 const extensoesParaFuncao = { '.jpg': JPGtoPDF_1.criarPDFComJPG, '.jpeg': JPEGtoPDF_1.criarPDFComJPEG, '.jfif': JFIFtoPDF_1.criarPDFComJFIF, '.png': PNGtoPDF_1.criarPDFComPNG };
 function isSupportedExtension(filename) {
     const supportedExtensions = ['.jpg', '.jpeg', '.jfif', '.png'];

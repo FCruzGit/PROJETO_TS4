@@ -1,4 +1,6 @@
 // Endereço para realizar a Query | MOVER POR EXTENÇÃO | MOVER PARA RAIZ | VERIFICAR DIRETÓRIO VAZIO
+import exp from "constants";
+
 export const sourceDirectory = "C:\\Users\\felip\\OneDrive\\Documentos\\Electronic Arts\\The Sims 4\\Mods\\.HOUSE"
 
 //Endereço DESTINO para MOVER por EXTENÇÃO e Tipos permitidos | MOVER POR EXTENÇÃO
@@ -11,7 +13,11 @@ export const simsDirectory = "C:\\Users\\felip\\OneDrive\\Documentos\\Electronic
 // Endereço para salvar o arquivo Json da listagem | LISTA DIRETORIO
 export const outputPath = "C:\\Users\\felip\\WebstormProjects\\projetots4\\src\\asset\\json\\listagem01"
 
-// Endereços para Conversão | DIRETÓRIO, ARQUIVO e SAÍDA | VALIDAR ARQUIVO
+// DELETAR DUPLICADOS
+export const diretorioRaiz = 'C:\\Users\\felip\\OneDrive\\Documentos\\Electronic Arts\\The Sims 4\\Mods\\.Slider';
+export const diretorioDeletados = "C:\\Users\\felip\\WebstormProjects\\projetots4\\src\\asset\\deletados";
+
+// CONVERSORES DE IMAGEM | DIRETÓRIO, ARQUIVO e SAÍDA | VALIDAR ARQUIVO
 export const diretorioImagem = 'C:\\Users\\felip\\OneDrive\\Imagens\\Memes';
 
 const nomeImagem = 'Fqi6YqHXoAA6w9X';
