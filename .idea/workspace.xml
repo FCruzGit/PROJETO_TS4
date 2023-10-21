@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f2dd10a-4cee-46d2-88c6-a97dc0f81edb" name="Changes" comment="Adicionar README.md">
-      <change afterPath="$PROJECT_DIR$/src/operador/deletarDuplicados.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="5f2dd10a-4cee-46d2-88c6-a97dc0f81edb" name="Changes" comment="node files v1">
+      <change afterPath="$PROJECT_DIR$/src/operador/buscarPalavra.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/conversor/validarArquivo.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/conversor/validarArquivo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/operador/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/operador/template.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/operador/template.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/operador/template.ts" afterDir="false" />
     </list>
@@ -39,25 +37,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/felip/WebstormProjects/projetots4/dist/operador/deletarDuplicados.js",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "C:/Users/felip/AppData/Roaming/JetBrains/WebStorm2023.2/node/node-v18.15.0-win-x64/node",
-    "nodejs_package_manager_path": "C:\\Users\\felip\\AppData\\Roaming\\JetBrains\\WebStorm2023.2\\node\\node-v18.15.0-win-x64\\npm.cmd",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "ts.external.directory.path": "C:\\Users\\felip\\WebstormProjects\\projetots4\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/felip/WebstormProjects/projetots4/dist/operador/buscarPalavra.js&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/felip/AppData/Roaming/JetBrains/WebStorm2023.2/node/node-v18.15.0-win-x64/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;C:\\Users\\felip\\AppData\\Roaming\\JetBrains\\WebStorm2023.2\\node\\node-v18.15.0-win-x64\\npm.cmd&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\felip\\WebstormProjects\\projetots4\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\felip\WebstormProjects\projetots4\src\asset" />
@@ -70,7 +68,7 @@
       <recent name="C:\Users\felip\WebstormProjects\projetots4" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.DELETAR DUPLICADOS">
+  <component name="RunManager" selected="Node.js.mover Arquivos para Raiz">
     <configuration name="DELETAR DUPLICADOS" type="NodeJSConfigurationType" path-to-node="node" path-to-js-file="dist/operador/deletarDuplicados.js" working-dir="$PROJECT_DIR$">
       <method v="2">
         <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/tsconfig.json" />
@@ -91,6 +89,11 @@
         <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/tsconfig.json" />
       </method>
     </configuration>
+    <configuration name="buscar por palavra chave" type="NodeJSConfigurationType" path-to-node="node" path-to-js-file="dist/operador/buscarPalavra.js" working-dir="$PROJECT_DIR$">
+      <method v="2">
+        <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/tsconfig.json" />
+      </method>
+    </configuration>
     <configuration name="mover Arquivos para Raiz" type="NodeJSConfigurationType" path-to-node="node" path-to-js-file="dist/operador/moverArquivosRaiz.js" working-dir="$PROJECT_DIR$">
       <method v="2">
         <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/tsconfig.json" />
@@ -106,6 +109,7 @@
       <item itemvalue="Node.js.Verificar Diretorios" />
       <item itemvalue="Node.js.Validar Arquivo (Conversão)" />
       <item itemvalue="Node.js.DELETAR DUPLICADOS" />
+      <item itemvalue="Node.js.buscar por palavra chave" />
       <item itemvalue="Node.js.mover Arquivos para Raiz" />
       <item itemvalue="Node.js.Listar diretórios" />
     </list>
@@ -124,7 +128,15 @@
       <workItem from="1696692573723" duration="1783000" />
       <workItem from="1696780717122" duration="4436000" />
       <workItem from="1696871992687" duration="18837000" />
-      <workItem from="1696910218855" duration="2028000" />
+      <workItem from="1696910218855" duration="4677000" />
+      <workItem from="1696916393730" duration="2359000" />
+      <workItem from="1696991861301" duration="966000" />
+      <workItem from="1697132346884" duration="864000" />
+      <workItem from="1697207137682" duration="654000" />
+      <workItem from="1697302440542" duration="973000" />
+      <workItem from="1697416072213" duration="946000" />
+      <workItem from="1697659760113" duration="596000" />
+      <workItem from="1697898624702" duration="63000" />
     </task>
     <task id="LOCAL-00001" summary="Comit Inicial">
       <option name="closed" value="true" />
@@ -166,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696908326967</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Acicionar operador de remover duplicidade de arquivos. v1">
+      <option name="closed" value="true" />
+      <created>1696912356083</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696912356083</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +197,7 @@
     <MESSAGE value="Conversores de imagem para PDF completo." />
     <MESSAGE value="Conversores de imagem para PDF completo. v2" />
     <MESSAGE value="Adicionar README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionar README.md" />
+    <MESSAGE value="Acicionar operador de remover duplicidade de arquivos. v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Acicionar operador de remover duplicidade de arquivos. v1" />
   </component>
 </project>

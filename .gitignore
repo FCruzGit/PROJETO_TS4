@@ -1,5 +1,9 @@
-src/asset/convertido
-
 src/asset/json
 
 src/asset/deletados
+
+node_modules
+
+dist
+
+.idea

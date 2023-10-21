@@ -1,11 +1,9 @@
 // Endereço para realizar a Query | MOVER POR EXTENÇÃO | MOVER PARA RAIZ | VERIFICAR DIRETÓRIO VAZIO
-import exp from "constants";
-
-export const sourceDirectory = "C:\\Users\\felip\\OneDrive\\Documentos\\Electronic Arts\\The Sims 4\\Mods\\.HOUSE"
+export const sourceDirectory = "C:\\Users\\felip\\Downloads\\wickedpixxel_Mini-Mart\\"
 
 //Endereço DESTINO para MOVER por EXTENÇÃO e Tipos permitidos | MOVER POR EXTENÇÃO
 export const destinationDirectory = 'C:/Users/felip/OneDrive/Documentos/Electronic Arts/The Sims 4/Tray';
-export const allowedExtensions = ['.hhi', '.sgi', '.trayitem', '.householdbinary', '.bpi', '.blueprint'];
+export const allowedExtensions = ['.hhi', '.sgi', '.trayitem', '.householdbinary', '.bpi', '.blueprint', '.room', '.rmi'];
 
 // Endereço a listar as pastas | LISTA DIRETORIO
 export const simsDirectory = "C:\\Users\\felip\\OneDrive\\Documentos\\Electronic Arts\\The Sims 4\\Mods\\.SIMS\\PACK.SIMS4IMAGINATION"
@@ -14,7 +12,7 @@ export const simsDirectory = "C:\\Users\\felip\\OneDrive\\Documentos\\Electronic
 export const outputPath = "C:\\Users\\felip\\WebstormProjects\\projetots4\\src\\asset\\json\\listagem01"
 
 // DELETAR DUPLICADOS
-export const diretorioRaiz = 'C:\\Users\\felip\\OneDrive\\Documentos\\Electronic Arts\\The Sims 4\\Mods\\.Slider';
+export const diretorioRaiz = 'C:\\Users\\felip\\Downloads\\PACK.TS4.RESOURCE.PT2';
 export const diretorioDeletados = "C:\\Users\\felip\\WebstormProjects\\projetots4\\src\\asset\\deletados";
 
 // CONVERSORES DE IMAGEM | DIRETÓRIO, ARQUIVO e SAÍDA | VALIDAR ARQUIVO
