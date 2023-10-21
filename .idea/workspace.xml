@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f2dd10a-4cee-46d2-88c6-a97dc0f81edb" name="Changes" comment="node files v1">
-      <change afterPath="$PROJECT_DIR$/src/operador/buscarPalavra.ts" afterDir="false" />
+    <list default="true" id="5f2dd10a-4cee-46d2-88c6-a97dc0f81edb" name="Changes" comment="Ajustar projeto - 21 / 10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/operador/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/operador/template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/operador/template.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/operador/template.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +134,8 @@
       <workItem from="1697416072213" duration="946000" />
       <workItem from="1697659760113" duration="596000" />
       <workItem from="1697898624702" duration="63000" />
+      <workItem from="1697906001769" duration="899000" />
+      <workItem from="1697910508698" duration="450000" />
     </task>
     <task id="LOCAL-00001" summary="Comit Inicial">
       <option name="closed" value="true" />
@@ -186,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696912356083</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ajustar projeto - 21 / 10">
+      <option name="closed" value="true" />
+      <created>1697907880237</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697907880237</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +205,7 @@
     <MESSAGE value="Conversores de imagem para PDF completo. v2" />
     <MESSAGE value="Adicionar README.md" />
     <MESSAGE value="Acicionar operador de remover duplicidade de arquivos. v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Acicionar operador de remover duplicidade de arquivos. v1" />
+    <MESSAGE value="Ajustar projeto - 21 / 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustar projeto - 21 / 10" />
   </component>
 </project>
